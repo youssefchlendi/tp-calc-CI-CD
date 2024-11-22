@@ -26,4 +26,4 @@ jobs:
           context: ./sources
           file: ./sources/Dockerfile
           push: true
-          tags: youssefchlendi/tp-calc-CI-CD:1.0.${{github.run_number}}
+          tags: youssefchlendi/tp-calc-ci-cd:1.0.${{github.run_number}}
