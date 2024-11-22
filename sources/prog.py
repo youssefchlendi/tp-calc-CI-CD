@@ -11,6 +11,9 @@ print("Bienvenue dans cette petite calculatrice sous Python pour entier.\n")
 
 def run_calc():
     op = input("Choisissez une opération entre +, -, x , / et %      : \n")
+    while op not in ["+", "-", "x", "/", "%"]:
+        op = input("Veuillez choisir une opération valide parmi +, -, x, / et %\n")
+    
     term_1 = input("Entrer votre premier entier \n")
     term_2 = input("Enter votre second entier \n")
     res = calc.ope(op, term_1, term_2)
