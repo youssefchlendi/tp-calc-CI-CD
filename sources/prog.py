@@ -10,7 +10,7 @@ print("Bienvenue dans cette petite calculatrice sous Python pour entier.\n")
 
 
 def run_calc():
-    op = input("Choisissez une opération entre +, -, x , / et %      : \n")
+    op = input("Choisissez une opération entre +, -, x , / et %: \n")
     while op not in ["+", "-", "x", "/", "%"]:
         op = input("Veuillez choisir une opération valide parmi +, -, x, / et %\n")
     
